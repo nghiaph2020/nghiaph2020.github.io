@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+    .row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+    @media only screen and (max-width: 768px) {
+        [class*="col-"] {
+        width: 100%;
+    }
+    }
+    @media only screen and (max-width: 992px) and (min-width: 768px) {
+        
+    }
+</style>
+
+<body>
+    <h1>Cảnh đẹp thành phố Hồ Chí Minh vào buổi tối</h1>
+    <p>
+           Khi mặt trời lặn cũng chính là lúc thành phố lên đèn.
+    Dạo dọc theo con đường nơi khách sạn mình ở, các nhà hàng, cửa tiệm rực rỡ những sắc màu.
+    Những ánh đèn đủ màu xanh, đỏ, tím, vàng... trên các bảng hiệu thi nhau nhấp nháy trong đêm.
+    Dòng người dạo bộ trên các vỉa hè đông hơn.
+     Những cửa hàng giải khát cũng đông nghịt người.
+     Trên đường, người, xe ngược xuôi tấp nập.
+    </p>
+    <div class="row">
+        <div class="col-6">
+            <img width="100%" src="https://nld.mediacdn.vn/thumb_w/684/291774122806476800/2021/3/25/tp-hcm-16166302948081082506894.jpg"></img>
+        </div>
+        <div class="col-6">
+            <img width="100%" src="https://baohothuonghieu.net/wp-content/uploads/2017/12/dang-ky-bao-ho-nhan-hieu-tai-thanh-pho-ho-chi-minh.jpg"></img>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
